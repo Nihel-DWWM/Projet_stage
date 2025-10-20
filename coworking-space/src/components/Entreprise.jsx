@@ -14,12 +14,12 @@ export default function Entreprise() {
           <div className="flex items-center gap-4 bg-white shadow-lg rounded-xl p-4 w-fit">
             {/* Dropdown + texte */}
             <div>
-              <p className="font-semibold text-gray-900">Recherchez</p>
+              <p className="font-semibold text-gray-900">Rechercher</p>
               <input className="border" type="text" name="recherche"/>
-              <p className="text-sm text-gray-500">Temukan ruang kerja di</p>
+              <p className="text-sm text-gray-500">Rechercher un bureau et/ou service</p>
             </div>
             {/* Bouton orange */}
-            <button className="bg-orange-500 hover:bg-orange-600 transition-colors text-white px-6 py-3 rounded-lg">
+            <button className="bg-[#df9a18] hover:bg-[#c6850f] transition-colors text-white px-6 py-3 rounded-lg">
               →
             </button>
           </div>
