@@ -1,0 +1,18 @@
+.swiper-pagination-bullet {
+  background-color: #136E7A; /* couleur des points */
+  opacity: 1; /* pour forcer la couleur même si pas actif */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #0f4c57; /* couleur du point actif */
+}
+
+/* Style des flèches Swiper */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #136E7A !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 50% !important;
+  width: 40px !important;
+  height: 40px !important;
+}
