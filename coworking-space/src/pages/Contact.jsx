@@ -10,7 +10,7 @@ return(
     {/* ===== HERO ===== */}
       <section className="relative w-full h-[300px] mt-[96px]">
         <img
-          src="https://picsum.photos/1200/400" // a remplcer avec image
+          src="/service-a-la-clientele.jpg" // a remplcer avec image
           alt="Vue de la ville"
           className="w-full h-full object-cover"
         />
@@ -50,21 +50,18 @@ return(
              <span>* Les champs sont requis</span>
             {/* Cases à cocher */}
             <div>
-              <label className="block mb-2 font-medium">Votre besoin</label>
-              <div className="flex flex-col space-y-2">
-                <label className="flex items-center space-x-2">
-                  <input type="checkbox" className="accent-[#136E7A]" />
-                  <span>Location Longue Durée</span>
-                </label>
-                <label className="flex items-center space-x-2">
-                  <input type="checkbox" className="accent-[#136E7A]" />
-                  <span>Location Courte Durée</span>
-                </label>
-                <label className="flex items-center space-x-2">
-                  <input type="checkbox" className="accent-[#136E7A]" />
-                  <span>Salle de Réunion</span>
-                </label>
-              </div>
+              <label className="block mb-2 font-medium">Objet</label>
+              <select
+                id="besoin"
+                name="besoin"
+                className="border border-gray-300 rounded-lg p-2 focus:ring-2 focus:ring-[#136E7A] focus:border-[#136E7A] outline-none transition"
+              >
+                <option value="">-- Choisir un objet --</option>
+                <option value="longue">Domicialiation</option>
+                <option value="courte">Service informatique</option>
+                <option value="reunion">Assistance</option>
+                <option value="reunion">Demande de rendez-vous</option>
+              </select>
             </div>
 
             <textarea

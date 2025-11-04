@@ -41,7 +41,7 @@ return (
 
           <div className="rounded-2xl overflow-hidden shadow-lg h-full">
             {/* Placeholder image - remplacez par /images/espace1.jpg etc. */}
-            <img src="https://www.agc-perspectives.fr/media/4120/medium/domiciliation-entreprise.jpg" alt="Centre d'affaires La Rochelle" className="w-full h-full object-cover" />
+            <img src="https://www.agc-perspectives.fr/media/4120/medium/domiciliation-entreprise.jpg" alt="domiciliation.jpeg" className="w-full h-full object-cover" />
           </div>
         </section>   
 
@@ -344,7 +344,7 @@ return (
          <div className="max-w-6xl mx-auto grid md:grid-cols-2 items-center justify-between gap-6">
             {/* Texte */}
             <div>
-                <h3 className="text-3xl font-extrabold">Prêt à domicilier votre entreprise&nbsp;?</h3>
+                <h3 className="text-3xl font-extrabold">Prêt à domicilier votre entreprise ?</h3>
                 <p className="mt-3 text-lg opacity-90">
                 Contactez-nous pour un accompagnement personnalisé et une souscription simple et rapide en ligne.
                 </p>

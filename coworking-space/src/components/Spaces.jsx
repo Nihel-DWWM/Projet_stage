@@ -8,11 +8,11 @@ import "../App.css";
 
 export default function Spaces() {
   const espaces = [
-    { id: 1, titre: "Clean Simple", localisation: "12 Lokasi", image: "https://picsum.photos/200/300?random=7" },
-    { id: 2, titre: "Cafe Ambience", localisation: "12 Lokasi", image: "https://picsum.photos/200/300?random=8" },
-    { id: 3, titre: "Home Office", localisation: "12 Lokasi", image: "https://picsum.photos/200/300?random=9" },
-    { id: 4, titre: "Comfy Elegant", localisation: "12 Lokasi", image: "https://picsum.photos/200/300?random=10" },
-    { id: 5, titre: "Minimal Cozy", localisation: "8 Lokasi", image: "https://picsum.photos/200/300?random=11" },
+    { id: 1, titre: "Clean Simple", localisation: "12 Lokasi", image: "https://picsum.photos/id/20/200/300" },
+    { id: 2, titre: "Cafe Ambience", localisation: "12 Lokasi", image: "https://picsum.photos/id/60/200/300" },
+    { id: 3, titre: "Home Office", localisation: "12 Lokasi", image: "https://picsum.photos/id/160/200/300" },
+    { id: 4, titre: "Comfy Elegant", localisation: "12 Lokasi", image: "https://picsum.photos/id/26/200/300" },
+    { id: 5, titre: "Minimal Cozy", localisation: "8 Lokasi", image: "https://picsum.photos/id/42/200/300" },
   ];
 
   return (

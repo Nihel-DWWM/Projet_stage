@@ -191,7 +191,7 @@ export default function ServiceInformatique(){
                       <div className="group relative overflow-hidden rounded-2xl bg-white shadow-md hover:shadow-lg transition-shadow">
                       <img
                         src="https://www.ipe.fr/wp-content/uploads/2020/09/Quest-ce-qui-diffe%CC%81rencie-la-maintenance-le-de%CC%81pannage-et-lassistance-informatique-scaled.jpg"
-                        alt="E-commerce"
+                        alt="Maintenance"
                         className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center text-white transition-opacity">
